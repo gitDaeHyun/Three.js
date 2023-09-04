@@ -1,0 +1,11 @@
+Model Information:
+* title:	Qian The Shopkeeper Panda
+* source:	https://sketchfab.com/3d-models/qian-the-shopkeeper-panda-6a6c413f3ab84e1ea9d4755c12145af4
+* author:	tvanbreda (https://sketchfab.com/tvanbreda)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Qian The Shopkeeper Panda" (https://sketchfab.com/3d-models/qian-the-shopkeeper-panda-6a6c413f3ab84e1ea9d4755c12145af4) by tvanbreda (https://sketchfab.com/tvanbreda) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
