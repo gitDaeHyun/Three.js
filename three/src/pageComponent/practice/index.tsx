@@ -6,7 +6,9 @@ import MyElement3D from '@/components/MyElement3D'
 function Practice() {
     return (
         <>
-            <Canvas>
+            <Canvas style={{width: "100vw", height: "100vh" }}
+                    camera={{
+                        aspect: window.innerWidth / window.innerHeight,}}>
                 <MyElement3D />
             </Canvas>
         </>

@@ -1,5 +1,7 @@
 import Practice from "@/pageComponent/practice"
 
-export default function () {
+function PracticePage() {
     return <Practice />
 }
+
+export default PracticePage
