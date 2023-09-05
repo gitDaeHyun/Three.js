@@ -7,7 +7,7 @@ import { Box,OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 
 
-function MyBox(props : ThreeElements['mesh']) {
+function MyBox(props : any) {
     const geom = new THREE.BoxGeometry()
     return <mesh {...props} geometry={geom}>
         </mesh>
@@ -19,8 +19,8 @@ function MyElement3D() {
     // npm i @react-three/drei
 
 
-    const refMesh = useRef<THREE.Mesh>();
-    const refWireMesh = useRef<THREE.Mesh>();
+    const refMesh = useRef<any>();
+    const refWireMesh = useRef<any>();
     // useFrame((state,delta : number) => {
     //     refMesh.current.rotation.y += delta
     // })
