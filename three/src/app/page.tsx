@@ -19,7 +19,7 @@ export default function Home() {
       renderer.outputEncoding = THREE.sRGBEncoding;
 
       const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight);
-      camera.position.set(0, 0, 5);
+      camera.position.set(0, 0, 205);
       
       const controls = new OrbitControls(camera,renderer.domElement);
       // controls.minDistance = 0;
@@ -27,16 +27,21 @@ export default function Home() {
       // controls.maxPolarAngle -> 최데,최소 앵글 조정
 
       const loader = new GLTFLoader();
-      
+      const color = 'red';
+      const intensity = 1;
+      const light = new THREE.AmbientLight(color, intensity);
+      scene.add(light);
       scene.background = new THREE.Color("white");
 
-      loader.load("/shiba/scene.gltf", (gltf) => {
+      loader.load("/darius/scene.gltf", (gltf) => {
         scene.add(gltf.scene);
 
         function animate()  {
           requestAnimationFrame(animate);
           controls.update()
-          gltf.scene.rotation.y += 0.2;
+          gltf.scene.rotation.y += 0.01;
+          // gltf.scene.rotation.x += 0.05;
+       
           renderer.render(scene, camera);
         }
 
